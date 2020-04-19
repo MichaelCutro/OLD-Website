@@ -1,0 +1,46 @@
+#particles-js {
+  background: transparent;
+  height: 165px
+}
+
+.sidebar{
+padding: 30px;
+width: 250px;
+height: 100%;
+display: flex;
+font-weight: 600;
+flex-direction: column;
+align-items: center;
+font-size: 14px;
+border-right-color:  #ffffff;
+}
+
+.verticalLine {
+    height: 100%;
+    position: absolute;
+    border-right: thin solid white;
+
+}
+.img-Mike {
+  border-radius: 50%;
+  width: 200px;
+  opacity: 0.7;
+  padding: 20px;
+  flex-wrap: wrap;
+  display: block;
+  margin: 0 auto;
+}
+
+html {
+  background: url(earth.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+}
+
+a {
+    color: deepskyblue;
+    text-decoration: none;
+}
